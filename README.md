@@ -1,1 +1,1 @@
-# js-restaurant-page
+# Restaurant Page
