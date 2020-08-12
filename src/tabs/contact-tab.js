@@ -11,7 +11,7 @@ export const contact_tab = () => {
     Location: Mumbai, Maharashtra, India 
     </div>
     <div>
-    Contact: You it this isn't real, right? 
+    Contact: You know this isn't real, right? 
     </div>
   `
 
