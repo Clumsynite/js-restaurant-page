@@ -147,6 +147,20 @@ body{
   font-style: italic;
 }
 
+.jump-link {
+  text-decoration: none;
+  color: #00ff80;
+  text-shadow: 1px 1px 10px black;
+  font-weight: bold;
+}
+
+#contact-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100px;
+}
+
 @media screen and (max-width: 720px){
   #heading {
     font-size: 40px;
@@ -163,6 +177,9 @@ body{
   }
   .card-desc {
     font-size: 16px;
+  }
+  #contact-div {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 500px){
