@@ -1,7 +1,5 @@
-import {Background as bg} from './background-img.js'
-import {Heading} from './bare-bones.js'
+import {Heading as title} from './heading.js'
+import {tabs} from './tabs.js'
 
-console.log('working')
-
-bg.addBackground()
-Heading.addHeading()
+title()
+tabs()
