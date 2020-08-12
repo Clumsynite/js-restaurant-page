@@ -7,5 +7,5 @@ import {content_handler} from './tab-content.js'
 title()
 tabs()
 content_handler()
-document.querySelector('#home-tab').click();
-
+// document.querySelector('#home-tab').click();
+document.querySelector('#menu-tab').click();
