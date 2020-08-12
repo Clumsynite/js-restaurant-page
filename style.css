@@ -46,7 +46,7 @@ body{
   font-family: 'Parisienne', cursive;
   font-weight: bold;
   text-shadow: 1px 2px 10px black;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
 #tab-div {
@@ -94,6 +94,10 @@ body{
   color: chartreuse;
   font-weight: bold;
   cursor: pointer;
+}
+
+#card {
+
 }
 
 @media screen and (max-width: 720px){
