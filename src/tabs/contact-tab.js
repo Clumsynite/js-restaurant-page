@@ -14,7 +14,7 @@ export const contact_tab = () => {
     Contact: You know this isn't real, right? 
     </div>
   `
-
+  
   contact.innerHTML = tempText
   main.appendChild(contact)
 }
