@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 * {box-sizing: border-box;}
 
@@ -57,6 +58,18 @@ body{
   background-color: wheat;
   color: black;
   text-shadow: 2px 2px 10px white;
+  font-weight: bold;
+}
+
+#main {
+  background-image: linear-gradient(
+  rgba(31, 31, 31, 0.5),
+  rgba(0, 0, 0, 0.5)
+  );
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 600px){
