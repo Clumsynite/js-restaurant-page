@@ -17,8 +17,7 @@ body{
   margin: 0;
 
   /* Font */
-  
-  text-shadow: 1px 2px 10px black;
+  color: white;
 }
 
 #heading {
@@ -50,10 +49,14 @@ body{
   font-family: 'Chilanka', cursive;
 }
 .tabs {
+  flex-grow: 1;
+  text-align: center;
   padding: 10px;
 }
-.tabs:active {
-
+.active {
+  background-color: wheat;
+  color: black;
+  text-shadow: 2px 2px 10px white;
 }
 
 @media screen and (max-width: 600px){
