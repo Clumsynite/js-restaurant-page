@@ -11,14 +11,25 @@ export const content_handler = () => {
   
   const tabs = document.querySelectorAll('.tabs')
   
+  const main = document.querySelector('#main')
+
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
       const activeTabs = document.querySelectorAll(".active");
       activeTabs.forEach(active => {
         active.classList.remove('active')
       })
+      clearMain()
     })
   })
+
+  const clearMain = () => {
+    if(main.hasChildNodes()){
+      while(main.hasChildNodes()){
+        main.removeChild(main.lastChild);
+      }
+    }
+  }
 
   homeTab.addEventListener('click',home)
   menuTab.addEventListener('click',menu)
