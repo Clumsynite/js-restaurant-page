@@ -8,10 +8,10 @@ export const contact_tab = () => {
     <strong>Clumsyknight's Restaurant</strong>
     </div>
     <div>
-    Location: Mumbai, Maharashtra, India 
+    <strong>Location:</strong> Mumbai, Maharashtra, India 
     </div>
     <div>
-    Contact: You know this isn't real, right? 
+    <strong>Contact:</strong> You know this isn't real, right? 
     </div>
   `
   
